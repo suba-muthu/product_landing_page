@@ -94,3 +94,14 @@ nav > ul > li {
 h2, p {
     margin: 0;
 }
+
+.video {
+    display: flex;
+    height: 300px;
+    width: 550px;
+    margin: auto;
+}
+
+#how-it-works {
+    margin-top: 50px;
+}
