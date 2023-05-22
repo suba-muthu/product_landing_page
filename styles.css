@@ -105,3 +105,48 @@ h2, p {
 #how-it-works {
     margin-top: 50px;
 }
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 25%;
+    /* height: 150%; */
+    text-align: center;
+    margin: 10px;
+}
+
+.price ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.price li {
+    padding: 5px 0;
+}
+
+.heading4 { 
+    background-color: #dddddd;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 30%;
+    height: 40px;
+    margin: 10px auto;
+    background-color: #f1c40f;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
